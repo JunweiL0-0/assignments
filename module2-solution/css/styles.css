@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-family: Bradley Hand, cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  float: left;
+  padding: 15px;
+}
+
+section article {
+  border: 1px solid black;
+  background-color: #9a9a9a;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+section article h2 {
+  border: 1px solid black;
+  margin: 0;
+  text-align: center;
+  width: 140px;
+  height: 30px;
+  padding: 2px 20px 2px 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+section article p {
+  font-family: Chalkduster, fantasy;
+  font-size: smaller;
+  margin: 40px 10px 0px 10px;
+}
+
+
+#chicken {
+  border-top: 0px;
+  border-right: 0px;
+  background-color: #cc9b67;
+}
+
+#beef {
+  border-top: 0px;
+  border-right: 0px;
+  background-color: #b44e48;
+}
+
+#sushi {
+  border-top: 0px;
+  border-right: 0px;
+  background-color: #e2d19f;
+}
+
+/********** Reponsive Page **********/
+/* Desktop view */
+@media (min-width: 992px) {
+  section {
+    width: 33.33%;
+  }
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+  #section1, #section2 {
+    width: 50%;
+  }
+  #section3 {
+    width: 100%;
+  }
+}
+
+/* Mobil view */
+@media (max-width: 767px) {
+  section {
+    width: 100%;
+  }
+}
