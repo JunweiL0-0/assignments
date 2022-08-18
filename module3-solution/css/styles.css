@@ -1,0 +1,124 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: rgb(232, 232, 234);
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  border-radius: 0;
+  background-color: #999999;
+  border: 0px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#header-nav .navbar-header .navbar-brand {
+  font-weight: bold;
+  font-size: x-large;
+  color: black;
+}
+
+#nav-list p {
+  color: black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand>p {
+  margin-bottom: 0;
+}
+
+#page-heading {
+  font-weight: bold;
+  color: black;
+}
+
+hr {
+  border: 1px solid black;
+  margin: 0;
+}
+
+.icon-bar {
+  border: 2px solid black;
+}
+
+#nav-list li a, #nav-list li a p {
+  padding: 0;
+  margin: 0;
+}
+
+#nav-list {
+  margin: 0;
+}
+
+#collapsable-nav {
+  border: 0;
+
+}
+
+.navbar-collapse {
+  padding: 0%;
+}
+
+#home-tiles>div {
+  margin: 30px 0px 30px 0px;
+}
+
+.tile-title {
+  font-weight: bold;
+  color: black;
+}
+
+.container {
+  width: 95%;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+  #chicken-tile, #beef-tile, #sushi-tile {
+    background-color: gray;
+    border: 1px solid black;
+    margin: 5px;
+  }
+
+  #home-tiles p {
+    padding: 10px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #chicken-tile, #beef-tile, #sushi-tile {
+    background-color: gray;
+    border: 1px solid black;
+    margin: 5px;
+  }
+
+  #home-tiles p {
+    padding: 10px;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 768px) {
+  #collapsable-nav {
+    border-top: 2px solid black;
+  }
+  #home-tiles {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  #chicken-tile, #beef-tile, #sushi-tile {
+    background-color: gray;
+    border: 1px solid black;
+    margin: 5px;
+  }
+
+  #home-tiles p {
+    padding: 10px;
+  }
+}
